@@ -9,12 +9,12 @@ const ContactPage: React.FC = () => {
     {
       icon: <Mail className="h-6 w-6 text-accent" />,
       title: 'Email',
-      details: ['adhyayan2025@amc.edu.in', 'support@adhyayan2025.com']
+      details: ['andhramedicalcollege100@gmail.com']
     },
     {
       icon: <Phone className="h-6 w-6 text-accent" />,
       title: 'Phone',
-      details: ['+91 9876543210', '+91 9876543211']
+      details: ['+91 7658943811'
     },
     {
       icon: <MapPin className="h-6 w-6 text-accent" />,
@@ -29,9 +29,7 @@ const ContactPage: React.FC = () => {
   ];
 
   const socialLinks = [
-    { icon: <Facebook className="h-5 w-5" />, label: 'Facebook', url: '#' },
-    { icon: <Instagram className="h-5 w-5" />, label: 'Instagram', url: '#' },
-    { icon: <Twitter className="h-5 w-5" />, label: 'Twitter', url: '#' }
+    { icon: <Instagram className="h-5 w-5" />, label: 'Instagram', url: 'https://www.instagram.com/adhyayan_.25?igsh=MXN0eDNkNnlsamtidQ==' },
   ];
 
   return (
