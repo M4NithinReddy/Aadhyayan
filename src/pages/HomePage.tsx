@@ -212,7 +212,7 @@ const HomePage: React.FC = () => {
             <div className="grid grid-cols-2 gap-4">
               <div className="card p-6 flex flex-col items-center text-center">
                 <Calendar className="h-8 w-8 text-accent mb-4" />
-                <h4 className="font-montserrat font-bold mb-2">3 Days of Learning</h4>
+                <h4 className="font-montserrat font-bold mb-2">5 Days of Learning</h4>
                 <p className="text-sm text-gray">Workshops, competitions, and networking</p>
               </div>
               <div className="card p-6 flex flex-col items-center text-center">
