@@ -9,13 +9,9 @@ import SectionTitle from '../components/ui/SectionTitle';
 // Import images
 import heroBackground from '../assets/images/home/hero-bg.jpg';
 import legacyBackground from '../assets/images/home/legacy-bg.jpg';
-import surgeryWorkshop from '../assets/images/home/workshops/surgery.jpg';
-import anaesthesiaWorkshop from '../assets/images/home/workshops/anaesthesia.jpg';
-import orthopaedicsWorkshop from '../assets/images/home/workshops/orthopaedics.jpg';
-import mainBuilding from '../assets/images/home/campus/main-building.jpg';
-import library from '../assets/images/home/campus/library.jpg';
-import labs from '../assets/images/home/campus/labs.jpg';
-import lectureHalls from '../assets/images/home/campus/lecture-halls.jpg';
+import surgeryWorkshop from '../../public/workshops/Surgery.jpeg';
+import anaesthesiaWorkshop from '../../public/workshops/Anesthecia.jpeg';
+import orthopaedicsWorkshop from '../../public/workshops/Orthopedics.jpeg';
 
 const HomePage: React.FC = () => {
   const legacyHighlights = [
@@ -65,28 +61,6 @@ const HomePage: React.FC = () => {
     },
   ];
 
-  const collegeHighlights = [
-    {
-      image: mainBuilding,
-      title: 'Historic Main Building',
-      description: 'Our iconic main building, a symbol of medical excellence since 1926'
-    },
-    {
-      image: library,
-      title: 'State-of-the-art Library',
-      description: 'Modern learning spaces with vast medical literature collection'
-    },
-    {
-      image: labs,
-      title: 'Advanced Research Labs',
-      description: 'Cutting-edge facilities for medical research and innovation'
-    },
-    {
-      image: lectureHalls,
-      title: 'Modern Lecture Halls',
-      description: 'Technology-enabled spaces for interactive learning'
-    }
-  ];
 
   return (
     <>
