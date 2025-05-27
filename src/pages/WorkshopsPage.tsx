@@ -14,7 +14,7 @@ const WorkshopsPage: React.FC = () => {
       date: 'June 16, 2025',
       venue: 'Govt. Regional Eye Hospital, RAMA TALKIES',
       price: 599,
-      image: '/src/assets/images/workshops/ophthalmology.jpeg'
+      image: '/workshops/Ophthalmology.jpeg'
     },
     {
       id: 'orthopaedics',
@@ -24,7 +24,7 @@ const WorkshopsPage: React.FC = () => {
       time: 'AM & PM Sessions',
       venue: 'AMCOSA',
       price: 499,
-      image: '/src/assets/images/workshops/Orthopedics.jpeg'
+      image: '/workshops/Orthopedics.jpeg'
     },
     {
       id: 'anaesthesia',
@@ -34,7 +34,7 @@ const WorkshopsPage: React.FC = () => {
       time: 'AM & PM Sessions',
       venue: 'NELS Skill Lab, AMC',
       price: 449,
-      image: '/src/assets/images/workshops/Anesthecia.jpeg'
+      image: '/workshops/Anesthecia.jpeg'
     },
     {
       id: 'surgery',
@@ -43,7 +43,7 @@ const WorkshopsPage: React.FC = () => {
       date: 'June 16-19, 2025',
       venue: 'AMCOSA',
       price: 499,
-      image: '/src/assets/images/workshops/Surgery.jpeg'
+      image: '/workshops/Surgery.jpeg'
     },
     {
       id: 'obgyn1',
@@ -52,7 +52,7 @@ const WorkshopsPage: React.FC = () => {
       date: 'June 17-18, 2025',
       venue: 'AMCOSA',
       price: 299,
-      image: '/src/assets/images/workshops/Gynaecology.jpeg'
+      image: '/workshops/Gynaecology.jpeg'
     },
     {
       id: 'obgyn2',
@@ -61,7 +61,7 @@ const WorkshopsPage: React.FC = () => {
       date: 'June 19-20, 2025',
       venue: 'AMCOSA',
       price: 299,
-      image: '/src/assets/images/workshops/Gynaecology.jpeg'
+      image: '/workshops/Gynaecology.jpeg'
     },
     {
       id: 'ent',
@@ -70,7 +70,7 @@ const WorkshopsPage: React.FC = () => {
       date: 'June 18, 2025',
       venue: 'Govt. ENT Hospital, Pedda Waltair',
       price: 349,
-      image: '/src/assets/images/workshops/Ent.jpeg'
+      image: '/workshops/Ent.jpeg'
     },
     {
       id: 'pediatrics',
@@ -79,7 +79,7 @@ const WorkshopsPage: React.FC = () => {
       date: 'June 17, 2025',
       venue: 'Dept. of Pediatrics, AMC',
       price: 499,
-      image: '/src/assets/images/workshops/pediatrics.jpeg'
+      image: '/workshops/pediatrics.jpeg'
     },
     {
       id: 'community',
@@ -88,7 +88,7 @@ const WorkshopsPage: React.FC = () => {
       date: 'June 17-18, 2025',
       venue: 'AMCOSA',
       price: 349,
-      image: '/src/assets/images/workshops/Community Medicine.jpeg'
+      image: '/workshops/Community Medicine.jpeg'
     },
     {
       id: 'fmt',
@@ -97,7 +97,7 @@ const WorkshopsPage: React.FC = () => {
       date: 'June 16-19, 2025',
       venue: 'Mortuary, Dept. of FMT, AMC KGH',
       price: 649,
-      image: '/src/assets/images/workshops/Forensic Medicine.jpeg'
+      image: '/workshops/Forensic Medicine.jpeg'
     },
     {
       id: 'medicine',
@@ -106,7 +106,7 @@ const WorkshopsPage: React.FC = () => {
       date: 'June 18, 2025',
       venue: 'AMCOSA',
       price: 349,
-      image: '/src/assets/images/workshops/medicine.jpeg'
+      image: '/workshops/medicine.jpeg'
     }
   ];
 

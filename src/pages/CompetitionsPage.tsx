@@ -35,7 +35,7 @@ const CompetitionsPage: React.FC = () => {
       title: 'Build the Diagnosis',
       icon: <Brain className="h-8 w-8" />,
       description: 'Case based diagnostic puzzle combining history, signs, labs and reasoning.',
-      image: '/src/assets/images/competitions/build-diagnosis.jpg',
+      image: '/competitions/Diagnosis.jpg',
       details: {
         rules: [
           'All UG students can participate (including interns)',
@@ -56,7 +56,7 @@ const CompetitionsPage: React.FC = () => {
       title: 'Medical Debate',
       icon: <MessageSquare className="h-8 w-8" />,
       description: 'Engage in thought-provoking discussions on current medical topics.',
-      image: '/src/assets/images/competitions/debate.jpg',
+      image: '/competitions/Medical debate.jpeg',
       details: {
         rules: [
           'Three-round structured debate',
@@ -82,7 +82,7 @@ const CompetitionsPage: React.FC = () => {
       title: 'Essay Writing',
       icon: <PenTool className="h-8 w-8" />,
       description: 'Express your thoughts on medical topics through compelling essays.',
-      image: '/src/assets/images/competitions/essay.jpg',
+      image: '/competitions/essaywriting.jpeg',
       details: {
         topic: 'De-Stigmatising the Demon: Reframing HIV Beyond Fear and Prejudice',
         contact: {
@@ -96,7 +96,7 @@ const CompetitionsPage: React.FC = () => {
       title: 'Medical Reels',
       icon: <Video className="h-8 w-8" />,
       description: 'Create engaging short-form medical content.',
-      image: '/src/assets/images/competitions/reels.jpg',
+      image: '/competitions/Medical Reels.jpeg',
       details: {
         rules: [
           'Animations are not accepted',
@@ -121,7 +121,7 @@ const CompetitionsPage: React.FC = () => {
       title: 'Photography Competition',
       icon: <Camera className="h-8 w-8" />,
       description: 'Capture the essence of medical life through your lens.',
-      image: '/src/assets/images/competitions/photography.jpg',
+      image: '/competitions/Photography.jpeg',
       details: {
         theme: 'Our Campus',
         rules: [
