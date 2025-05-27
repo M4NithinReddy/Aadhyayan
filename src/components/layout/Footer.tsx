@@ -61,7 +61,7 @@ const Footer: React.FC = () => {
             <ul className="space-y-3">
               <li className="flex items-start gap-3 text-sm">
                 <Mail size={18} className="text-accent shrink-0 mt-1" />
-                <span className="text-gray-light">adhyayan2025@amc.edu.in</span>
+                <span className="text-gray-light">andhramedicalcollege100@gmail.com</span>
               </li>
               <li className="flex items-start gap-3 text-sm">
                 <Phone size={18} className="text-accent shrink-0 mt-1" />
