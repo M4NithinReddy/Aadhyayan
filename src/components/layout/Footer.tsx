@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
     { name: 'Accommodation', path: '/accommodation' },
     { name: 'Contact', path: '/contact' },
   ];
-
+//added
   return (
     <footer className="bg-primary text-white">
       <div className="container py-12 md:py-16">
