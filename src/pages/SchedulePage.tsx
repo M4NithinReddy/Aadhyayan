@@ -94,7 +94,7 @@ const SchedulePage: React.FC = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <h1 className="font-montserrat font-bold mb-6">MED HUNT Schedule</h1>
+            <h1 className="font-montserrat font-bold mb-6">ADHYAYAN Schedule</h1>
             <p className="text-xl text-gray-light">
               Six days of learning, innovation, and celebration
             </p>
