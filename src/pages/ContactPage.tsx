@@ -196,7 +196,7 @@ const ContactPage: React.FC = () => {
 
     <div className="mt-12 h-96 bg-white rounded-lg shadow-card overflow-hidden">
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.583015845494!2d78.38267017516162!3d17.433370501857334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93b4d7f979f5%3A0x11e1c5f47db11c3!2sHitex%20Exhibition%20Center!5e0!3m2!1sen!2sin!4v1716896302380!5m2!1sen!2sin"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.849139677741!2d83.29367499999999!3d17.7168805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3943124dbe2f73%3A0xcd2b3326b6ab2e05!2sAMCOSA%20Function%20Hall!5e0!3m2!1sen!2sin!4v1716900040879!5m2!1sen!2sin"
         width="100%"
         height="100%"
         style={{ border: 0 }}
