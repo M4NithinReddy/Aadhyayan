@@ -21,9 +21,9 @@ const AboutPage: React.FC = () => {
   };
 
   const stats = [
-    { icon: <GraduationCap />, value: '1926', label: 'Year Founded' },
+    { icon: <GraduationCap />, value: '1923', label: 'Year Founded' },
     { icon: <Users />, value: '5000+', label: 'Alumni Network' },
-    { icon: <Building />, value: '25+', label: 'Departments' },
+    { icon: <Building />, value: '40+', label: 'Departments' },
     { icon: <Award />, value: '100+', label: 'Awards & Recognitions' },
   ];
 
