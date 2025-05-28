@@ -335,7 +335,7 @@ const HomePage: React.FC = () => {
                 <div>
                   <h4 className="font-montserrat font-semibold">Event Venue</h4>
                   <p className="text-gray mt-2">
-                    Andhra Medical College, Maharanipeta, Visakhapatnam, Andhra Pradesh - 530002
+                   P866+PFX, Krishna Nagar Rd, Krishnagar, Port Officers Quarters, Maharani Peta, Visakhapatnam, Andhra Pradesh 530002
                   </p>
                 </div>
               </div>
