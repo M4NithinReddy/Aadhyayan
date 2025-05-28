@@ -294,7 +294,7 @@ const AboutPage: React.FC = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <a href="/registration" className="btn-primary text-lg px-12 py-4">
+            <a href="/workshops" className="btn-primary text-lg px-12 py-4">
               Register Now
             </a>
           </motion.div>
