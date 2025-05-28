@@ -200,9 +200,15 @@ const CompetitionsPage: React.FC = () => {
                     </h3>
                   </div>
                   
-                  <p className="text-gray mb-6">
-                    {competition.description}
-                  </p>
+                  <p className="text-gray mb-2">
+  {competition.description}
+</p>
+
+{competition.details.theme && (
+  <p className="text-sm text-accent font-medium mb-4">
+    Theme: {competition.details.theme}
+  </p>
+)}
 
                   <button 
                     onClick={() => setSelectedCompetition(competition)}
