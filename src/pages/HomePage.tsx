@@ -356,13 +356,17 @@ const HomePage: React.FC = () => {
               </div>
             </div>
             <div className="bg-gray-100 rounded-lg overflow-hidden h-80 relative">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <p className="text-gray-dark font-medium text-center p-4">
-                  Interactive Map would be displayed here
-                  <br /><span className="text-sm text-gray">(Map integration would be implemented with Google Maps API)</span>
-                </p>
-              </div>
-            </div>
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.849139677741!2d83.29367499999999!3d17.7168805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3943124dbe2f73%3A0xcd2b3326b6ab2e05!2sAMCOSA%20Function%20Hall!5e0!3m2!1sen!2sin!4v1716900040879!5m2!1sen!2sin"
+    width="100%"
+    height="100%"
+    style={{ border: 0 }}
+    allowFullScreen
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+  ></iframe>
+</div>
+
           </div>
         </div>
       </section>
