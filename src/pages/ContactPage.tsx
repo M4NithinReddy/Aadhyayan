@@ -186,26 +186,28 @@ const ContactPage: React.FC = () => {
       </section>
 
       {/* Map Section */}
-      <section className="section bg-gray-50">
-        <div className="container">
-          <SectionTitle
-            subtitle="Location"
-            title="Find Us Here"
-            alignment="center"
-          />
+     <section className="section bg-gray-50">
+  <div className="container">
+    <SectionTitle
+      subtitle="Location"
+      title="Find Us Here"
+      alignment="center"
+    />
 
-          <div className="mt-12 h-96 bg-white rounded-lg shadow-card overflow-hidden">
-            {/* Map would be integrated here */}
-            <div className="w-full h-full flex items-center justify-center bg-gray-100">
-              <p className="text-gray-dark text-center">
-                Interactive Map
-                <br />
-                <span className="text-sm text-gray">(Google Maps integration would be implemented here)</span>
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+    <div className="mt-12 h-96 bg-white rounded-lg shadow-card overflow-hidden">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.583015845494!2d78.38267017516162!3d17.433370501857334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93b4d7f979f5%3A0x11e1c5f47db11c3!2sHitex%20Exhibition%20Center!5e0!3m2!1sen!2sin!4v1716896302380!5m2!1sen!2sin"
+        width="100%"
+        height="100%"
+        style={{ border: 0 }}
+        allowFullScreen
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+  </div>
+</section>
+
     </>
   );
 };
