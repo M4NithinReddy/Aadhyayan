@@ -309,7 +309,7 @@ const HomePage: React.FC = () => {
             Register now to secure your spot at AADHYAYAN 2025. Limited seats available for workshops and competitions.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/registration" className="btn-primary">
+            <Link to="/workshops" className="btn-primary">
               Register Now
             </Link>
             <Link to="/contact" className="btn-secondary bg-transparent text-white border-white hover:bg-white/10">
