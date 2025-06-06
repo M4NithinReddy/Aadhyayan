@@ -77,15 +77,7 @@ const AboutPage: React.FC = () => {
       quote: "Excellence in medical education comes through practical experience and theoretical knowledge.",
       description: 'Driving academic excellence and surgical innovation.'
     },
-    {
-      name: 'Dr. A.Krishnaveni',
-      position: 'General Vice-Principal',
-      additionalRole: 'Prof & HOD of Community Medicine, AMC',
-      qualifications: 'MD',
-      image: krishnaveniImage,
-      quote: "Community health is the foundation of a healthy society.",
-      description: 'Leading community medicine initiatives and public health programs.'
-    },
+    
     {
       name: 'Dr. Rajendra Prasad',
       position: 'Vice-Principal (Administration)',
@@ -94,6 +86,15 @@ const AboutPage: React.FC = () => {
       image: rajendraPrasadImage,
       quote: "Administrative excellence supports academic achievement.",
       description: 'Managing administrative operations and pediatric surgical services.'
+    },
+    {
+      name: 'Dr. A.Krishnaveni',
+      position: 'General Vice-Principal',
+      additionalRole: 'Prof & HOD of Community Medicine, AMC',
+      qualifications: 'MD',
+      image: krishnaveniImage,
+      quote: "Community health is the foundation of a healthy society.",
+      description: 'Leading community medicine initiatives and public health programs.'
     }
   ];
 
