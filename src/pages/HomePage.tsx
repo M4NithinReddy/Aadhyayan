@@ -241,63 +241,6 @@ const HomePage: React.FC = () => {
       </section>
 
       {/* Schedule Preview */}
-      <section className="section bg-white">
-        <div className="container">
-          <SectionTitle
-            subtitle="Event Timeline"
-            title="Schedule Overview"
-            alignment="center"
-          />
-
-          <div className="max-w-3xl mx-auto mt-12 space-y-6">
-            <div className="card p-6 border-l-4 border-accent">
-              <div className="flex items-start">
-                <Clock className="h-6 w-6 text-accent mr-4 mt-1" />
-                <div>
-                  <h4 className="font-montserrat font-semibold">Day 1: Opening Ceremony & Keynotes</h4>
-                  <p className="text-gray mt-2">
-                    March 15, 2025 - Join us for the grand opening ceremony, keynote speeches by 
-                    distinguished guests, and introductory workshops.
-                  </p>
-                </div>
-              </div>
-            </div>
-            
-            <div className="card p-6 border-l-4 border-accent">
-              <div className="flex items-start">
-                <Clock className="h-6 w-6 text-accent mr-4 mt-1" />
-                <div>
-                  <h4 className="font-montserrat font-semibold">Day 2: Workshops & Competitions</h4>
-                  <p className="text-gray mt-2">
-                    March 16, 2025 - Full day of specialized workshops, hackathon begins, paper presentations, 
-                    and interactive sessions with medical experts.
-                  </p>
-                </div>
-              </div>
-            </div>
-            
-            <div className="card p-6 border-l-4 border-accent">
-              <div className="flex items-start">
-                <Clock className="h-6 w-6 text-accent mr-4 mt-1" />
-                <div>
-                  <h4 className="font-montserrat font-semibold">Day 3: Finals & Closing Ceremony</h4>
-                  <p className="text-gray mt-2">
-                    March 17, 2025 - Final presentations, judging, award ceremony, and closing remarks 
-                    celebrating the achievements of all participants.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="text-center mt-10">
-            <Link to="/schedule" className="btn-secondary inline-flex items-center">
-              View Detailed Schedule
-              <ArrowRight className="ml-2 h-4 w-4" />
-            </Link>
-          </div>
-        </div>
-      </section>
 
       {/* Registration CTA */}
       <section className="py-16 bg-primary text-white">
