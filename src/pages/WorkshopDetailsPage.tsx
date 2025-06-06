@@ -198,8 +198,8 @@ const workshops: Workshop[] = [
     ],
     contacts: [
       { name: 'Vamshi', phone: '9381581180' },
-      { name: 'Sri Ganesh', phone: '70139573173899459338' },
-      { name: 'Pooja' }
+      { name: 'Satya Vardhan', phone: '9573173899' }
+      
     ],
     image: 'https://images.pexels.com/photos/4226122/pexels-photo-4226122.jpeg',
     slots: [
