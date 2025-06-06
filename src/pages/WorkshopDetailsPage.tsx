@@ -44,7 +44,7 @@ const workshops: Workshop[] = [
     ],
     contacts: [
       { name: 'Surya', phone: '8639630928' },
-      { name: 'Bhanu Prasad', phone: '8639630928' }
+      { name: 'Rahul', phone: '9398362706' }
     ],
     image: 'https://images.pexels.com/photos/5726706/pexels-photo-5726706.jpeg',
     slots: [
@@ -69,7 +69,7 @@ const workshops: Workshop[] = [
     ],
     contacts: [
       { name: 'Prashanth', phone: '7989543522' },
-      { name: 'Rahul', phone: '9398362706' },
+      { name: 'Thushar Manikanta', phone: '6309561947' },
       { name: 'Raji' }
     ],
     image: 'https://images.pexels.com/photos/8376160/pexels-photo-8376160.jpeg',
@@ -196,7 +196,11 @@ const workshops: Workshop[] = [
       'Diagnosis with Nasal Endoscopy',
       'Tracheostomy on Goat Trachea'
     ],
-    contacts: [],
+    contacts: [
+      { name: 'Vamshi', phone: '9381581180' },
+      { name: 'Sri Ganesh', phone: '70139573173899459338' },
+      { name: 'Pooja' }
+    ],
     image: 'https://images.pexels.com/photos/4226122/pexels-photo-4226122.jpeg',
     slots: [
       {
@@ -264,7 +268,7 @@ const workshops: Workshop[] = [
     ],
     contacts: [
       { name: 'Vinil', phone: '6304568005' },
-      { name: 'Danush', phone: '8500581333' },
+      { name: 'Naveen M', phone: '86887055173' },
       { name: 'Pushpa Lasya' }
     ],
     image: 'https://images.pexels.com/photos/4386466/pexels-photo-4386466.jpeg',
@@ -367,7 +371,8 @@ const workshops: Workshop[] = [
     contacts: [
       { name: 'Abhishek', phone: '9390774710' },
       { name: 'Siva Sankar', phone: '7032797278' },
-      { name: 'Geethika' }
+      { name: 'Geethika' },
+      { name: 'Srujana' }
     ],
     image: 'https://images.pexels.com/photos/5722164/pexels-photo-5722164.jpeg',
     slots: [

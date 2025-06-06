@@ -7,25 +7,25 @@ import SectionTitle from '../components/ui/SectionTitle';
 const SchedulePage: React.FC = () => {
   const scheduleData = {
     day1: {
-      date: '15',
+      date: '23',
       title: 'MED HUNT',
       sessions: []
     },
     day2: {
-      date: '16',
+      date: '24',
       sessions: [
         {
           time: '9am to 12 pm',
-          events: ['Ortho', 'Surgery', 'Ophthalmology', 'Debate']
+          events: ['Medicine', 'Surgery', 'Opthal', 'Build your diagnosis']
         },
         {
           time: '1pm to 4 pm',
-          events: ['Ortho', 'Surgery', 'Autopsy', 'Housie']
+          events: ['Medicine', 'Surgery', 'FMT', 'Housie']
         }
       ]
     },
     day3: {
-      date: '17',
+      date: '25',
       sessions: [
         {
           time: '9am to 12 pm',
@@ -33,46 +33,46 @@ const SchedulePage: React.FC = () => {
         },
         {
           time: '1pm to 4 pm',
-          events: ['Surgery', 'Pedia', 'Autopsy', 'OBGYN-1']
+          events: ['Surgery', 'Pedia', 'FMT', 'OBGYN-1']
         }
       ]
     },
     day4: {
-      date: '18',
+      date: '26',
       sessions: [
         {
           time: '9am to 12 pm',
-          events: ['Medicine', 'ENT', 'Med Quiz']
+          events: ['Ortho', 'ENT', 'SPM' , 'Debate']
         },
         {
           time: '1pm to 4 pm',
-          events: ['Medicine', 'Autopsy', 'OBGYN-1']
+          events: ['Ortho', 'FMT', 'OBGYN-1']
         }
       ]
     },
     day5: {
-      date: '19',
+      date: '27',
       sessions: [
         {
           time: '9am to 12 pm',
-          events: ['Basic life support', 'Surgery']
+          events: ['Anaesthesia', 'Surgery']
         },
         {
           time: '1pm to 4 pm',
-          events: ['Basic life support', 'Autopsy', 'OBGYN-2', 'Music Band']
+          events: ['Anaesthesia', 'FMT', 'OBGYN-2', 'Music Band']
         }
       ]
     },
     day6: {
-      date: '20',
+      date: '28',
       sessions: [
         {
           time: '9am to 12 pm',
-          events: ['Basic life support']
+          events: ['Anaesthesia']
         },
         {
           time: '1pm to 4 pm',
-          events: ['Basic life support', 'OBGYN-2', 'Movie Night']
+          events: ['Anaesthesia', 'OBGYN-2', 'Movie Night']
         }
       ]
     }
@@ -81,7 +81,7 @@ const SchedulePage: React.FC = () => {
   return (
     <>
       <Helmet>
-        <title>Schedule | MED HUNT 2025</title>
+        <title>Schedule | Adhyayan 2025</title>
         <meta name="description" content="Detailed schedule of workshops, competitions, and events at MED HUNT 2025." />
       </Helmet>
 
@@ -201,19 +201,26 @@ const SchedulePage: React.FC = () => {
       </section>
 
       {/* Download Section */}
-      <section className="py-16 bg-primary text-white">
-        <div className="container text-center">
-          <h2 className="text-3xl md:text-4xl font-montserrat font-bold mb-6">
-            Download Schedule
-          </h2>
-          <p className="max-w-2xl mx-auto mb-8 text-gray-light">
-            Get the complete schedule on your device for offline access
-          </p>
-          <button className="btn-primary">
-            Download PDF Schedule
-          </button>
-        </div>
-      </section>
+<section className="py-16 bg-primary text-white">
+  <div className="container text-center">
+    <h2 className="text-3xl md:text-4xl font-montserrat font-bold mb-6">
+      Download Schedule
+    </h2>
+    <p className="max-w-2xl mx-auto mb-8 text-gray-light">
+      Get the complete schedule on your device for offline access
+    </p>
+    <a
+      href="https://drive.google.com/file/d/1HqNgHpxbeXy_EGfcB2nTaSNExgR0e3Ni/view?usp=sharing"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <button className="btn-primary">
+        Download PDF Schedule
+      </button>
+    </a>
+  </div>
+</section>
+
     </>
   );
 };
