@@ -46,8 +46,8 @@ const CompetitionsPage: React.FC = () => {
         ],
         fee: '100/-',
         contact: {
-          name: 'Contact Coordinator',
-          phone: '+91 7658943811'
+          name: 'Harikrishna',
+          phone: '+91 91825 45949'
         }
       }
     },
