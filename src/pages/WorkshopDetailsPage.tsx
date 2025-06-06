@@ -29,7 +29,7 @@ const workshops: Workshop[] = [
     id: 'ophthalmology',
     title: 'Ophthalmology Workshop',
     description: 'Comprehensive training in eye examination and surgical techniques.',
-    date: 'June 16, 2025',
+    date: 'June 24, 2025',
     venue: 'Govt. Regional Eye Hospital, RAMA TALKIES',
     price: 599,
     topics: [
@@ -51,7 +51,7 @@ const workshops: Workshop[] = [
       {
         id: 'ophth-1',
         time: '9:00 AM - 1:00 PM',
-        date: 'June 16, 2025',
+        date: 'June 24, 2025',
         paymentLink: 'https://rzp.io/rzp/LTz3fhU'
       }
     ]
@@ -60,7 +60,7 @@ const workshops: Workshop[] = [
     id: 'orthopaedics',
     title: 'Orthopaedics Workshop',
     description: 'Learn essential bandaging and casting techniques.',
-    date: 'June 16, 2025',
+    date: 'June 26, 2025',
     venue: 'AMCOSA',
     price: 499,
     topics: [
@@ -77,13 +77,13 @@ const workshops: Workshop[] = [
       {
         id: 'ortho-1',
         time: '9:00 AM - 1:00 PM',
-        date: 'June 16, 2025',
+        date: 'June 26, 2025',
         paymentLink: 'https://rzp.io/rzp/R7GlpMlh'
       },
       {
         id: 'ortho-2',
         time: '2:00 PM - 6:00 PM',
-        date: 'June 16, 2025',
+        date: 'June 26, 2025',
         paymentLink: 'https://rzp.io/rzp/soI2zROp'
       }
     ]
@@ -111,25 +111,25 @@ const workshops: Workshop[] = [
       {
         id: 'anaes-1',
         time: '9:00 AM - 1:00 PM',
-        date: 'June 19, 2025',
+        date: 'June 27, 2025',
         paymentLink: 'https://rzp.io/rzp/e8l5u6e0'
       },
       {
         id: 'anaes-2',
         time: '2:00 PM - 6:00 PM',
-        date: 'June 19, 2025',
+        date: 'June 27, 2025',
         paymentLink: 'https://rzp.io/rzp/SwOrByk8'
       },
       {
         id: 'anaes-3',
         time: '9:00 AM - 1:00 PM',
-        date: 'June 20, 2025',
+        date: 'June 28, 2025',
         paymentLink: 'https://rzp.io/rzp/kAgAw9Ie'
       },
       {
         id: 'anaes-4',
         time: '2:00 PM - 6:00 PM',
-        date: 'June 20, 2025',
+        date: 'June 28, 2025',
         paymentLink: 'https://rzp.io/rzp/wBshqqmL'
       }
     ]
@@ -155,31 +155,31 @@ const workshops: Workshop[] = [
       {
         id: 'surg-1',
         time: '9:00 AM - 1:00 PM',
-        date: 'June 16, 2025',
+        date: 'June 24, 2025',
         paymentLink: 'https://rzp.io/rzp/KTy9kPfm'
       },
       {
         id: 'surg-2',
         time: '2:00 PM - 6:00 PM',
-        date: 'June 16, 2025',
+        date: 'June 24, 2025',
         paymentLink: 'https://rzp.io/rzp/4dqnAS6'
       },
       {
         id: 'surg-3',
         time: '9:00 AM - 1:00 PM',
-        date: 'June 17, 2025',
+        date: 'June 25, 2025',
         paymentLink: 'https://rzp.io/rzp/cT7bQQi'
       },
       {
         id: 'surg-4',
         time: '2:00 PM - 6:00 PM',
-        date: 'June 17, 2025',
+        date: 'June 25, 2025',
         paymentLink: 'https://rzp.io/rzp/3iEtSBG'
       },
       {
         id: 'surg-5',
         time: '9:00 AM - 1:00 PM',
-        date: 'June 19, 2025',
+        date: 'June 27, 2025',
         paymentLink: 'https://rzp.io/rzp/xaH8TQhR'
       }
     ]
@@ -206,7 +206,7 @@ const workshops: Workshop[] = [
       {
         id: 'ent-1',
         time: '9:00 AM - 1:00 PM',
-        date: 'June 18, 2025',
+        date: 'June 26, 2025',
         paymentLink: 'https://rzp.io/rzp/D0mEaAjz'
       }
     ]
@@ -215,7 +215,7 @@ const workshops: Workshop[] = [
     id: 'pediatrics',
     title: 'Pediatrics Workshop',
     description: 'Essential pediatric care and assessment training with hands-on practice at skill stations.',
-    date: 'June 17, 2025',
+    date: 'June 25, 2025',
     venue: 'Dept. of Pediatrics, AMC',
     price: 499,
     topics: [
@@ -238,13 +238,13 @@ const workshops: Workshop[] = [
       {
         id: 'ped-1',
         time: '9:00 AM - 1:00 PM',
-        date: 'June 17, 2025',
-        paymentLink: 'https://pages.razorpay.com/pl_QTbulkZBsIO7uc/view'
+        date: 'June 25, 2025',
+        paymentLink: 'https://pages.razorpay.com/pl_QTbuJkZBsIO7uc/view'
       },
       {
         id: 'ped-2',
         time: '2:00 PM - 6:00 PM',
-        date: 'June 17, 2025',
+        date: 'June 25, 2025',
         paymentLink: 'https://pages.razorpay.com/pl_QTbwUgtbUZLXCH/view'
       }
     ]
@@ -276,13 +276,13 @@ const workshops: Workshop[] = [
       {
         id: 'med-1',
         time: '9:00 AM - 1:00 PM',
-        date: 'June 18, 2025',
+        date: 'June 24, 2025',
         paymentLink: 'https://rzp.io/rzp/m6RavCJ'
       },
       {
         id: 'med-2',
         time: '2:00 PM - 6:00 PM',
-        date: 'June 18, 2025',
+        date: 'June 24, 2025',
         paymentLink: 'https://rzp.io/rzp/dDHgBZRX'
       }
     ]
@@ -308,25 +308,25 @@ const workshops: Workshop[] = [
       {
         id: 'fmt-1',
         time: '2:00 PM - 6:00 PM',
-        date: 'June 16, 2025',
+        date: 'June 24, 2025',
         paymentLink: 'https://rzp.io/rzp/X9j99EsV'
       },
       {
         id: 'fmt-2',
         time: '2:00 PM - 6:00 PM',
-        date: 'June 17, 2025',
+        date: 'June 25, 2025',
         paymentLink: 'https://rzp.io/rzp/FvbCf0gd'
       },
       {
         id: 'fmt-3',
         time: '2:00 PM - 6:00 PM',
-        date: 'June 18, 2025',
+        date: 'June 26, 2025',
         paymentLink: 'https://rzp.io/rzp/k24gwOO0'
       },
       {
         id: 'fmt-4',
         time: '2:00 PM - 6:00 PM',
-        date: 'June 19, 2025',
+        date: 'June 27, 2025',
         paymentLink: 'https://rzp.io/rzp/rYPb6G0'
       }
     ]
@@ -344,13 +344,13 @@ const workshops: Workshop[] = [
       {
         id: 'comm-1',
         time: '9:00 AM - 1:00 PM',
-        date: 'June 17, 2025',
+        date: 'June 25, 2025',
         paymentLink: 'https://rzp.io/rzp/bQzDEzrD'
       },
       {
         id: 'comm-2',
         time: '9:00 AM - 1:00 PM',
-        date: 'June 18, 2025',
+        date: 'June 26, 2025',
         paymentLink: 'https://rzp.io/rzp/l9lFWDo'
       }
     ]
@@ -379,13 +379,13 @@ const workshops: Workshop[] = [
       {
         id: 'obgyn1-1',
         time: '2:00 PM - 6:00 PM',
-        date: 'June 17, 2025',
+        date: 'June 25, 2025',
         paymentLink: 'https://rzp.io/rzp/fSIWRms'
       },
       {
         id: 'obgyn1-2',
         time: '2:00 PM - 6:00 PM',
-        date: 'June 18, 2025',
+        date: 'June 26, 2025',
         paymentLink: 'https://rzp.io/rzp/b6rygR2'
       }
     ]
@@ -413,13 +413,13 @@ const workshops: Workshop[] = [
       {
         id: 'obgyn2-1',
         time: '2:00 PM - 6:00 PM',
-        date: 'June 19, 2025',
+        date: 'June 27, 2025',
         paymentLink: 'https://rzp.io/rzp/Fo026as'
       },
       {
         id: 'obgyn2-2',
         time: '2:00 PM - 6:00 PM',
-        date: 'June 20, 2025',
+        date: 'June 28, 2025',
         paymentLink: 'https://rzp.io/rzp/pYaUKds'
       }
     ]

@@ -80,6 +80,8 @@ const AccommodationPage: React.FC = () => {
                   <div>
                     <h4 className="font-montserrat font-medium mb-2">Contact</h4>
                     <p className="text-gray">Sravya: +91 93920 62600</p>
+                    <p className="text-gray">Prashanthi: +91 70325 83272</p>
+                    <p className="text-gray">Vamsi: +91 93815 81180</p>
                   </div>
                 </div>
               </div>
@@ -99,7 +101,7 @@ const AccommodationPage: React.FC = () => {
                       <span className="flex-shrink-0 h-6 w-6 rounded-full bg-accent/20 flex items-center justify-center mr-3 mt-0.5">
                         <span className="h-2 w-2 rounded-full bg-accent"></span>
                       </span>
-                      <p className="text-gray">Contact Sravya for accommodation booking</p>
+                      <p className="text-gray">Contact Sravya/Prashanthi/Vamshi for accommodation booking</p>
                     </li>
                     <li className="flex items-start">
                       <span className="flex-shrink-0 h-6 w-6 rounded-full bg-accent/20 flex items-center justify-center mr-3 mt-0.5">

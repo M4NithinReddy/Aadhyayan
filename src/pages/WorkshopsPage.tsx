@@ -11,7 +11,7 @@ const WorkshopsPage: React.FC = () => {
       id: 'ophthalmology',
       title: 'Ophthalmology Workshop',
       description: 'Comprehensive training in eye examination and surgical techniques.',
-      date: 'June 16, 2025',
+      date: 'June 24, 2025',
       venue: 'Govt. Regional Eye Hospital, RAMA TALKIES',
       price: 599,
       image: '/workshops/Ophthalmology.jpeg'
@@ -20,7 +20,7 @@ const WorkshopsPage: React.FC = () => {
       id: 'orthopaedics',
       title: 'Orthopaedics Workshop',
       description: 'Learn essential bandaging and casting techniques.',
-      date: 'June 16, 2025',
+      date: 'June 26, 2025',
       time: 'AM & PM Sessions',
       venue: 'AMCOSA',
       price: 499,
@@ -30,7 +30,7 @@ const WorkshopsPage: React.FC = () => {
       id: 'anaesthesia',
       title: 'Anaesthesia Workshop',
       description: 'Comprehensive training in anaesthesia and life support.',
-      date: 'June 19-20, 2025',
+      date: 'June 27-28, 2025',
       time: 'AM & PM Sessions',
       venue: 'NELS Skill Lab, AMC',
       price: 449,
@@ -40,7 +40,7 @@ const WorkshopsPage: React.FC = () => {
       id: 'surgery',
       title: 'Surgery Workshop',
       description: 'Hands-on training in surgical techniques and wound management.',
-      date: 'June 16-19, 2025',
+      date: 'June 24-27, 2025',
       venue: 'AMCOSA',
       price: 499,
       image: '/workshops/Surgery.jpeg'
@@ -49,7 +49,7 @@ const WorkshopsPage: React.FC = () => {
       id: 'obgyn1',
       title: 'ObGyn Workshop - 1',
       description: 'Essential obstetric and gynecological procedures training.',
-      date: 'June 17-18, 2025',
+      date: 'June 25-26, 2025',
       venue: 'AMCOSA',
       price: 299,
       image: '/workshops/Gynaecology.jpeg'
@@ -58,7 +58,7 @@ const WorkshopsPage: React.FC = () => {
       id: 'obgyn2',
       title: 'ObGyn Workshop - 2',
       description: 'Advanced obstetric and gynecological procedures training.',
-      date: 'June 19-20, 2025',
+      date: 'June 27-28, 2025',
       venue: 'AMCOSA',
       price: 299,
       image: '/workshops/Gynaecology.jpeg'
@@ -67,7 +67,7 @@ const WorkshopsPage: React.FC = () => {
       id: 'ent',
       title: 'ENT Workshop',
       description: 'Comprehensive training in otorhinolaryngology procedures.',
-      date: 'June 18, 2025',
+      date: 'June 26, 2025',
       venue: 'Govt. ENT Hospital, Pedda Waltair',
       price: 349,
       image: '/workshops/Ent.jpeg'
@@ -76,7 +76,7 @@ const WorkshopsPage: React.FC = () => {
       id: 'pediatrics',
       title: 'Pediatrics Workshop',
       description: 'Essential pediatric care and assessment training.',
-      date: 'June 17, 2025',
+      date: 'June 25, 2025',
       venue: 'Dept. of Pediatrics, AMC',
       price: 499,
       image: '/workshops/pediatrics.jpeg'
@@ -85,7 +85,7 @@ const WorkshopsPage: React.FC = () => {
       id: 'community',
       title: 'Community Medicine Workshop',
       description: 'Training in community health assessment and preventive medicine.',
-      date: 'June 17-18, 2025',
+      date: 'June 25-26, 2025',
       venue: 'AMCOSA',
       price: 349,
       image: '/workshops/Community Medicine.jpeg'
@@ -94,7 +94,7 @@ const WorkshopsPage: React.FC = () => {
       id: 'fmt',
       title: 'Forensic Medicine Workshop',
       description: 'Hands-on forensic medicine and autopsy training.',
-      date: 'June 16-19, 2025',
+      date: 'June 24-27, 2025',
       venue: 'Mortuary, Dept. of FMT, AMC KGH',
       price: 649,
       image: '/workshops/Forensic Medicine.jpeg'
@@ -103,7 +103,7 @@ const WorkshopsPage: React.FC = () => {
       id: 'medicine',
       title: 'Medicine Workshop',
       description: 'Comprehensive medical skills and assessment training.',
-      date: 'June 18, 2025',
+      date: 'June 24, 2025',
       venue: 'AMCOSA',
       price: 349,
       image: '/workshops/medicine.jpeg'
