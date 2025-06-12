@@ -105,7 +105,7 @@ const WorkshopsPage: React.FC = () => {
       description: 'Comprehensive medical skills and assessment training.',
       date: 'June 24, 2025',
       venue: 'AMCOSA',
-      price: 349,
+      price: 399,
       image: '/workshops/medicine.jpeg'
     }
   ];

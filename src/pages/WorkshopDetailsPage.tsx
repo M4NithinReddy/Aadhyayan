@@ -230,7 +230,7 @@ const workshops: Workshop[] = [
     ],
     contacts: [
       { name: 'Midhilesh', phone: '8712299819' },
-      { name: 'Sri Ganesh', phone: '7013459338' },
+      { name: 'Sri Ganesh', phone: '7013245938' },
       { name: 'Pooja' }
     ],
     image: 'https://images.pexels.com/photos/5215024/pexels-photo-5215024.jpeg',
@@ -254,7 +254,7 @@ const workshops: Workshop[] = [
     title: 'Medicine Workshop',
     description: 'Comprehensive medical skills and assessment training.',
     venue: 'AMCOSA',
-    price: 349,
+    price: 399,
     topics: [
       'ABG',
       'Symptoms to Diagnosis',
@@ -268,7 +268,7 @@ const workshops: Workshop[] = [
     ],
     contacts: [
       { name: 'Vinil', phone: '6304568005' },
-      { name: 'Naveen M', phone: '86887055173' },
+      { name: 'Naveen M', phone: '8688705517' },
       { name: 'Pushpa Lasya' }
     ],
     image: 'https://images.pexels.com/photos/4386466/pexels-photo-4386466.jpeg',

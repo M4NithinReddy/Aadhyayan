@@ -11,6 +11,7 @@ import rajendraPrasadImage from '../assets/images/about/dr-rajendra-prasad.jpeg'
 import campusImg1 from '../assets/images/about/1.jpeg';
 import campusImg2 from '../assets/images/about/2.jpeg';
 import campusImg3 from '../assets/images/about/3.jpeg';
+import VaniMD from '../assets/images/about/VaniMD.jpg';
 
 
 const AboutPage: React.FC = () => {
@@ -61,10 +62,10 @@ const AboutPage: React.FC = () => {
       description: 'Leading AMC with dedication and vision towards medical excellence.'
     },
     {
-      name: 'Dr. P.Sivanandha',
+      name: ' DR . I . Vani',
       position: 'Superintendent, KGH',
-      qualifications: 'MS,ORTHO,(FISS SWITZERLAND)',
-      image: sivanandhaImage,
+      qualifications: 'MD OBG',
+      image: VaniMD,
       quote: "Our goal is to provide the highest quality healthcare education and service to our community.",
       description: 'Overseeing hospital operations and ensuring excellence in patient care.'
     },

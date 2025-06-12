@@ -58,7 +58,7 @@ const HeroSection: React.FC = () => {
             className="flex items-center justify-center gap-2 mb-10 text-white/80"
           >
             <CalendarDays className="h-5 w-5" />
-            <span className="font-montserrat">June 23-28, 2025 | Andhra Medical College, Visakhapatnam</span>
+            <span className="font-montserrat">June 23-20, 2025 | Andhra Medical College, Visakhapatnam</span>
           </motion.div>
 
           <motion.div

@@ -23,6 +23,9 @@ interface Competition {
     venue?: string;
     topic?: string;
     theme?: string;
+    judgingCriteria?: string[]; 
+    topics?: string[];
+    awards?: string[];
   };
 }
 
@@ -88,7 +91,11 @@ const CompetitionsPage: React.FC = () => {
         contact: {
           name: 'Renuka Priya',
           phone: '9573870164'
-        }
+        },
+         rules: [  // Add rules here
+      'Essay should be between 1000-1500 words.',
+      'Use MLA format for citations.',
+    ],
       }
     },
     {
@@ -116,6 +123,67 @@ const CompetitionsPage: React.FC = () => {
         }
       }
     },
+    {
+  id: 'seminar',
+  title: 'Vertically Integrated Seminar Competition',
+  icon: <Presentation className="h-8 w-8" />,
+  description: 'Present a medical topic from mechanism to management.',
+  image: '/competitions/Seminar.jpeg',
+  details: {
+    rules: [
+      'Presentation must follow the suggested structure',
+      'Maximum of 10 slides allowed (excluding title)',
+      'Use of diagrams and flowcharts is encouraged',
+      'Registration fee: ₹100'
+    ],
+    guidelines: [
+      'Slide 1: Title and Introduction',
+      'Slide 2-3: Pathophysiology (with diagrams/flowcharts)',
+      'Slide 4: Clinical Presentation (key symptoms/signs)',
+      'Slide 5: Investigations (with rationale)',
+      'Slide 6-7: Management (initial and long-term)',
+      'Slide 8: Key Takeaways',
+      'Slide 9: Optional - Recent Guidelines/Updates',
+      'Slide 10: References'
+    ],
+    judgingCriteria: [
+      'Scientific Content & Accuracy – 10 marks',
+      'Pathophysiology to Management Integration – 10 marks',
+      'Clarity & Structure – 10 marks',
+      'Presentation & Time Adherence – 10 marks',
+      'Handling Questions – 10 marks'
+    ],
+    topics: [
+      'Chronic Kidney Disease',
+      'Ischemic Stroke',
+      'Diabetes Mellitus',
+      'Hypo- and Hyperthyroidism',
+      'Acute Kidney Injury (AKI)',
+      'GI Bleed',
+      'Rheumatoid Arthritis',
+      'Hypertension',
+      'Acute Coronary Syndrome (ACS)',
+      'Pulmonary Tuberculosis',
+      'Obstructive Airway Diseases (Asthma/COPD)',
+      'Liver Cirrhosis & Portal Hypertension',
+      'Hemorrhagic Stroke',
+      'Inflammatory Bowel Disease',
+      'Meningitis',
+      'Sepsis',
+      'Pneumonia',
+      'Acute Pancreatitis',
+      'SLE'
+    ],
+    contact: {
+      name: 'Shubham',
+      phone: '8885660398'
+    },
+    awards: [
+      'Best Overall Presentation – 1st, 2nd, 3rd'
+    ]
+  }
+},
+
     {
       id: 'photography',
       title: 'Photography Competition',
@@ -164,167 +232,208 @@ const CompetitionsPage: React.FC = () => {
       </section>
 
       {/* Competitions Grid */}
-      <section className="section bg-white">
-        <div className="container">
-          <SectionTitle
-            subtitle="Compete & Win"
-            title="Featured Competitions"
-            alignment="center"
-          />
+{/* Competitions Grid */}
+<section className="section bg-white">
+  <div className="container">
+    <SectionTitle
+      subtitle="Compete & Win"
+      title="Featured Competitions"
+      alignment="center"
+    />
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
-            {competitions.map((competition, index) => (
-              <motion.div
-                key={competition.id}
-                className="group relative overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition-shadow"
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-              >
-                <div className="relative h-48 overflow-hidden">
-                  <img 
-                    src={competition.image}
-                    alt={competition.title}
-                    className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                </div>
-                
-                <div className="p-6">
-                  <div className="flex items-center gap-4 mb-4">
-                    <div className="p-3 rounded-full bg-accent/10 text-accent">
-                      {competition.icon}
-                    </div>
-                    <h3 className="text-xl font-montserrat font-semibold">
-                      {competition.title}
-                    </h3>
-                  </div>
-                  
-                  <p className="text-gray mb-2">
-  {competition.description}
-</p>
-
-{competition.details.theme && (
-  <p className="text-sm text-accent font-medium mb-4">
-    Theme: {competition.details.theme}
-  </p>
-)}
-
-                  <button 
-                    onClick={() => setSelectedCompetition(competition)}
-                    className="w-full btn-primary"
-                  >
-                    Learn More
-                  </button>
-                </div>
-              </motion.div>
-            ))}
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
+      {competitions.map((competition, index) => (
+        <motion.div
+          key={competition.id}
+          className="group relative overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition-shadow"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: index * 0.1 }}
+        >
+          <div className="relative h-48 overflow-hidden">
+            <img 
+              src={competition.image}
+              alt={competition.title}
+              className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
           </div>
-        </div>
-      </section>
+          
+          <div className="p-6">
+            <div className="flex items-center gap-4 mb-4">
+              <div className="p-3 rounded-full bg-accent/10 text-accent">
+                {competition.icon}
+              </div>
+              <h3 className="text-xl font-montserrat font-semibold">
+                {competition.title}
+              </h3>
+            </div>
+            
+            <p className="text-gray mb-2">
+              {competition.description}
+            </p>
 
-      {/* Competition Details Modal */}
-      <AnimatePresence>
-        {selectedCompetition && (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            className="fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4"
-            onClick={() => setSelectedCompetition(null)}
-          >
-            <motion.div
-              initial={{ scale: 0.95, opacity: 0 }}
-              animate={{ scale: 1, opacity: 1 }}
-              exit={{ scale: 0.95, opacity: 0 }}
-              className="bg-white rounded-xl max-w-2xl w-full max-h-[90vh] overflow-y-auto"
-              onClick={e => e.stopPropagation()}
+            {/* Render topic if available */}
+            {competition.details.topic && (
+              <p className="text-sm text-accent font-medium mb-4">
+                Topic: {competition.details.topic}
+              </p>
+            )}
+
+            {/* Render rules if available */}
+            {competition.details.rules && (
+              <p className="text-sm text-accent font-medium mb-4">
+                Rules: {competition.details.rules.length} rules
+              </p>
+            )}
+
+            <button 
+              onClick={() => setSelectedCompetition(competition)}
+              className="w-full btn-primary"
             >
-              <div className="relative">
-                <button
-                  onClick={() => setSelectedCompetition(null)}
-                  className="absolute right-4 top-4 p-2 hover:bg-gray-100 rounded-full transition-colors"
-                >
-                  <X className="h-6 w-6" />
-                </button>
+              Learn More
+            </button>
+          </div>
+        </motion.div>
+      ))}
+    </div>
+  </div>
+</section>
 
-                <div className="p-6">
-                  <div className="flex items-center gap-4 mb-6">
-                    <div className="p-3 rounded-full bg-accent/10 text-accent">
-                      {selectedCompetition.icon}
-                    </div>
-                    <h3 className="text-2xl font-montserrat font-semibold">
-                      {selectedCompetition.title}
-                    </h3>
-                  </div>
+{/* Competition Details Modal */}
+{/* Competition Details Modal */}
+<AnimatePresence>
+  {selectedCompetition && (
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      className="fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4"
+      onClick={() => setSelectedCompetition(null)}
+    >
+      <motion.div
+        initial={{ scale: 0.95, opacity: 0 }}
+        animate={{ scale: 1, opacity: 1 }}
+        exit={{ scale: 0.95, opacity: 0 }}
+        className="bg-white rounded-xl max-w-2xl w-full max-h-[90vh] overflow-y-auto"
+        onClick={(e) => e.stopPropagation()}
+      >
+        <div className="relative">
+          <button
+            onClick={() => setSelectedCompetition(null)}
+            className="absolute right-4 top-4 p-2 hover:bg-gray-100 rounded-full transition-colors"
+          >
+            <X className="h-6 w-6" />
+          </button>
 
-                  {selectedCompetition.details.topic && (
-                    <div className="mb-6">
-                      <h4 className="font-montserrat font-semibold mb-2">Topic</h4>
-                      <p className="text-gray-700">{selectedCompetition.details.topic}</p>
-                    </div>
-                  )}
+          <div className="p-6">
+            <div className="flex items-center gap-4 mb-6">
+              <div className="p-3 rounded-full bg-accent/10 text-accent">
+                {selectedCompetition.icon}
+              </div>
+              <h3 className="text-2xl font-montserrat font-semibold">
+                {selectedCompetition.title}
+              </h3>
+            </div>
 
-                  {selectedCompetition.details.rules && (
-                    <div className="mb-6">
-                      <h4 className="font-montserrat font-semibold mb-2">Rules</h4>
-                      <ul className="space-y-2">
-                        {selectedCompetition.details.rules.map((rule, index) => (
-                          <li key={index} className="flex items-start">
-                            <span className="h-2 w-2 bg-accent rounded-full mr-3 mt-2"></span>
-                            <span className="text-gray-700">{rule}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  )}
+            {/* Render topic in modal */}
+            {selectedCompetition.details.topic && (
+              <div className="mb-6">
+                <h4 className="font-montserrat font-semibold mb-2">Topic</h4>
+                <p className="text-gray-700">{selectedCompetition.details.topic}</p>
+              </div>
+            )}
 
-                  {selectedCompetition.details.guidelines && (
-                    <div className="mb-6">
-                      <h4 className="font-montserrat font-semibold mb-2">Guidelines</h4>
-                      <ul className="space-y-2">
-                        {selectedCompetition.details.guidelines.map((guideline, index) => (
-                          <li key={index} className="flex items-start">
-                            <span className="h-2 w-2 bg-accent rounded-full mr-3 mt-2"></span>
-                            <span className="text-gray-700">{guideline}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  )}
+            {/* Render topics array in modal */}
+            {selectedCompetition.details.topics && (
+              <div className="mb-6">
+                <h4 className="font-montserrat font-semibold mb-2">Topics</h4>
+                <ul className="list-disc pl-5">
+                  {selectedCompetition.details.topics.map((topic, index) => (
+                    <li key={index} className="text-gray-700">{topic}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
 
-                  {selectedCompetition.details.fee && (
-                    <div className="mb-6">
-                      <h4 className="font-montserrat font-semibold mb-2">Registration Fee</h4>
-                      <p className="text-2xl font-bold text-accent">₹{selectedCompetition.details.fee}</p>
-                    </div>
-                  )}
+            {/* Render rules in modal */}
+            {selectedCompetition.details.rules && (
+              <div className="mb-6">
+                <h4 className="font-montserrat font-semibold mb-2">Rules</h4>
+                <ul className="space-y-2">
+                  {selectedCompetition.details.rules.map((rule, index) => (
+                    <li key={index} className="flex items-start">
+                      <span className="h-2 w-2 bg-accent rounded-full mr-3 mt-2"></span>
+                      <span className="text-gray-700">{rule}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
 
-                  {selectedCompetition.details.contact && (
-                    <div className="mb-6">
-                      <h4 className="font-montserrat font-semibold mb-2">Contact</h4>
-                      <div className="flex items-center gap-2">
-                        <Phone className="h-5 w-5 text-accent" />
-                        <span>{selectedCompetition.details.contact.name}:</span>
-                        <a 
-                          href={`tel:${selectedCompetition.details.contact.phone}`}
-                          className="text-accent hover:underline"
-                        >
-                          {selectedCompetition.details.contact.phone}
-                        </a>
-                      </div>
-                    </div>
-                  )}
+            {/* Render guidelines in modal */}
+            {selectedCompetition.details.guidelines && (
+              <div className="mb-6">
+                <h4 className="font-montserrat font-semibold mb-2">Guidelines</h4>
+                <ul className="space-y-2">
+                  {selectedCompetition.details.guidelines.map((guideline, index) => (
+                    <li key={index} className="flex items-start">
+                      <span className="h-2 w-2 bg-accent rounded-full mr-3 mt-2"></span>
+                      <span className="text-gray-700">{guideline}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
 
-                  <button className="w-full btn-primary mt-4">
-                    Register Now
-                  </button>
+            {/* Render fee in modal */}
+            {selectedCompetition.details.fee && (
+              <div className="mb-6">
+                <h4 className="font-montserrat font-semibold mb-2">Registration Fee</h4>
+                <p className="text-2xl font-bold text-accent">₹{selectedCompetition.details.fee}</p>
+              </div>
+            )}
+
+            {/* Render awards in modal */}
+            {selectedCompetition.details.awards && (
+              <div className="mb-6">
+                <h4 className="font-montserrat font-semibold mb-2">Awards</h4>
+                <ul className="list-disc pl-5">
+                  {selectedCompetition.details.awards.map((award, index) => (
+                    <li key={index} className="text-gray-700">{award}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
+            {/* Render contact info */}
+            {selectedCompetition.details.contact && (
+              <div className="mb-6">
+                <h4 className="font-montserrat font-semibold mb-2">Contact</h4>
+                <div className="flex items-center gap-2">
+                  <Phone className="h-5 w-5 text-accent" />
+                  <span>{selectedCompetition.details.contact.name}:</span>
+                  <a 
+                    href={`tel:${selectedCompetition.details.contact.phone}`}
+                    className="text-accent hover:underline"
+                  >
+                    {selectedCompetition.details.contact.phone}
+                  </a>
                 </div>
               </div>
-            </motion.div>
-          </motion.div>
-        )}
-      </AnimatePresence>
+            )}
+
+            <button className="w-full btn-primary mt-4">
+              Register Now
+            </button>
+          </div>
+        </div>
+      </motion.div>
+    </motion.div>
+  )}  
+</AnimatePresence>
+
+
 
       {/* Prizes Section */}
       <section className="section bg-gray-50">
